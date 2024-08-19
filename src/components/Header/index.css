@@ -1,0 +1,115 @@
+.navbar-container {
+  background-color: #272727;
+  padding: 4px;
+
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 12px;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+.website-logo {
+  height: 60px;
+  width: 180px;
+}
+.home-jobs-container {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto';
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .header-container {
+    display: none;
+  }
+  .navbar-container {
+    padding-left: 8px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+  }
+}
+.home-header {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.logout-button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 6px;
+  border: 0px;
+}
+
+.mobile-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #272727;
+  margin: 0px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.mobile-website-logo {
+  height: 40px;
+  width: 120px;
+}
+.home-image-container {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  padding: 0px;
+}
+.mobile-home-icon {
+  color: #ffffff;
+  height: 40px;
+  width: 60px;
+  margin-right: 4px;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.briefCase-icon {
+  color: #ffffff;
+  height: 40px;
+  width: 60px;
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+.logout-icon {
+  color: #ffffff;
+  height: 40px;
+  width: 60px;
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 769px) {
+  .mobile-images-container {
+    display: none;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.button-mobile {
+  background-color: transparent;
+  border: 0px;
+}

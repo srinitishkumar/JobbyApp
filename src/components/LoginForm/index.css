@@ -1,0 +1,96 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  padding: 18px;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  padding: 14px;
+  height: 400px;
+  width: 540px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 576px) {
+  .responsive-container {
+    height: 280px;
+    width: 88%;
+  }
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+
+  padding: 18px;
+}
+.website-logo {
+  height: 60px;
+  width: 180px;
+}
+@media screen and (min-width: 576) {
+  .website-logo {
+    height: 30px;
+    width: 60px;
+  }
+}
+.name-input-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: 'Roboto';
+  padding: 8px;
+  margin-top: 12px;
+  width: 90%;
+}
+.label {
+  line-height: 1.7;
+  color: #f8fafc;
+  font-size: 14px;
+}
+.input-element {
+  padding-left: 24px;
+
+  height: 38px;
+  border-radius: 2px;
+  color: #f8fafc;
+  background-color: #272727;
+  border: 1px solid #f8f8f8;
+  padding: 8px;
+  font-size: 18px;
+}
+.submit-button {
+  width: 87%;
+  padding: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  text-align: center;
+  background-color: #4f46e5;
+  color: #f8f8f8;
+  border-radius: 4px;
+  height: 40px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.error-msg {
+  font-size: 14px;
+  text-align: start;
+  color: #ff0b37;
+  width: 87%;
+  margin-bottom: 12px;
+}
+.bottom-container {
+  display: flex;
+
+  flex-direction: column;
+  width: 87%;
+  padding-bottom: 38px;
+}
